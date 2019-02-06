@@ -3,7 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Components/Header";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Login from "../src/Components/Pages/Login";
+import Login from "./Components/Pages/Login";
 
 class App extends Component {
   render() {
